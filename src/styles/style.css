@@ -1,0 +1,56 @@
+.container {
+  height: 100vh;
+}
+
+.container form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-top: 2rem;
+  /* border: 1px solid red; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container form input {
+  margin: 1rem;
+  padding: .2rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.container form button {
+  margin: 1rem;
+  padding: .4rem 0;
+  border: none;
+  background-color: rgb(93, 186, 93);
+  color: white;
+  cursor: pointer;
+}
+/* .container form button:hover {
+  
+} */
+.container h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  display: block;
+  /* border: 1px solid red; */
+  font-size: .8rem;
+  color: red;
+  width: 90%;
+  margin: auto;
+}
+.success {
+  font-size: .9rem;
+  color: rgb(93, 186, 93);
+  width: 90%;
+  margin: auto;
+  text-transform: capitalize;
+  text-align: center;
+  padding: .3rem 0;
+}
+
